@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+while true; do
+	for char in "<*>" "<|>" "<!>" "<->" "!*!" "!.!" "|"; do
+		echo -ne "\033[34;103m\r$char\033[0m"
+		sleep 0.111322913
+	done
+done
